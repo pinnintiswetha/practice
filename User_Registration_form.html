@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <fieldset style="margin: 10px 600px;">
+        <legend style="text-align: center;">User Registration Form</legend><br>
+        <fieldset>
+            <legend style="text-align: center;">Personal Information</legend>
+            <label for="fname">Firstname </label>
+            <input type="text" name="fname" placeholder="Enter your Firstname"><br><br>
+            <label for="lname">Lastname </label>
+            <input type="text" name="lname" placeholder="Enter your Lastname"><br><br>
+            <label for="dob">Date of Birth </label>
+            <input type="date" name="dob" placeholder="Enter your DOB"><br><br>
+            <label>Gender: </label>
+            <input type="radio" name="gen" id="">
+            <label for="gen">Male</label>
+            <input type="radio" name="gen" id="">
+            <label for="gen">Female</label><br><br>
+            <label for="age">Age</label>
+            <input type="number" name="age" placeholder="Enter your age"><br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Enter your email"><br><br>
+            <label for="pass">Password </label>
+            <input type="password" placeholder="Enter your password" name="pass"><br><br>
+            <label for="cpass">Confirm Password </label>
+            <input type="password" placeholder="Enter Confirm Password" name="cpass"><br><br>
+            <label for="img">Image</label>
+            <input type="file" name="img"><br><br>  
+            <label for="address">Present Address</label><br>
+            <textarea name="address" cols="30" rows="5" placeholder="Enter your Address"></textarea><br><br>
+            <label for="paddress">Permanent Address</label><br>
+            <textarea name="paddress" cols="30" rows="5" placeholder="Enter your permanent Address"></textarea>
+        </fieldset><br>
+        <fieldset>
+            <legend style="text-align: center;">Preferences</legend>
+            <label for="Languages">Languages known</label>
+            <select name="Languages">
+                <option value="tel">Telugu</option>
+                <option value="hin">Hindi</option>
+                <option value="eng">English</option>
+                <option value="oth">Other</option>
+            </select><br><br>
+            <label for="course">Course do you want</label>
+            <select name="course">
+                <option value="web">Web Development</option>
+                <option value="and">Android Development</option>
+                <option value="full">Full Stack</option>
+                <option value="mern">Mern Stack</option>
+            </select><br>
+        </fieldset><br>
+        <center><input type="button" value="Register"></center>
+    </fieldset>
+</body>
+</html>
